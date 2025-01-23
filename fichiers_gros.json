@@ -1,62 +1,536 @@
 [
     {
-        "Nom du fichier": "Script3.py",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\Script3.py",
-        "taille_octets": 10926,
-        "derniere_modification": "2025-01-23 10:47:45"
+        "Nom du fichier": "app.asar",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app.asar",
+        "taille_octets": 297305981,
+        "derniere_modification": "2024-06-17 16:05:07"
     },
     {
-        "Nom du fichier": "Script1.py",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\Script1.py",
-        "taille_octets": 5038,
-        "derniere_modification": "2025-01-23 10:31:43"
+        "Nom du fichier": "app.asar",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app.asar",
+        "taille_octets": 297305981,
+        "derniere_modification": "2024-06-17 16:05:07"
     },
     {
-        "Nom du fichier": "pre-rebase.sample",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\hooks\\\\pre-rebase.sample",
-        "taille_octets": 4898,
-        "derniere_modification": "2025-01-23 10:23:33"
+        "Nom du fichier": "atom-1.63.1-full.nupkg",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\packages\\\\atom-1.63.1-full.nupkg",
+        "taille_octets": 210107790,
+        "derniere_modification": "2022-11-22 16:43:20"
     },
     {
-        "Nom du fichier": "workspace.xml",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.idea\\\\workspace.xml",
-        "taille_octets": 4832,
-        "derniere_modification": "2025-01-23 10:35:48"
+        "Nom du fichier": "atom-1.63.1-full.nupkg",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\packages\\\\atom-1.63.1-full.nupkg",
+        "taille_octets": 210107790,
+        "derniere_modification": "2022-11-22 16:43:20"
     },
     {
-        "Nom du fichier": "fsmonitor-watchman.sample",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\hooks\\\\fsmonitor-watchman.sample",
-        "taille_octets": 4726,
-        "derniere_modification": "2025-01-23 10:23:33"
+        "Nom du fichier": "libcef.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libcef.dll",
+        "taille_octets": 209786880,
+        "derniere_modification": "2024-08-28 21:02:46"
     },
     {
-        "Nom du fichier": "70340bd05b134160b374586de9bd18732a38e8",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\objects\\\\74\\\\70340bd05b134160b374586de9bd18732a38e8",
-        "taille_octets": 3810,
-        "derniere_modification": "2025-01-23 10:25:35"
+        "Nom du fichier": "libcef.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libcef.dll",
+        "taille_octets": 209786880,
+        "derniere_modification": "2024-08-28 21:02:46"
     },
     {
-        "Nom du fichier": "update.sample",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\hooks\\\\update.sample",
-        "taille_octets": 3650,
-        "derniere_modification": "2025-01-23 10:23:33"
+        "Nom du fichier": "installer.exe",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\arduino-ide-updater\\\\installer.exe",
+        "taille_octets": 149952672,
+        "derniere_modification": "2024-06-19 10:52:03"
     },
     {
-        "Nom du fichier": "push-to-checkout.sample",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\hooks\\\\push-to-checkout.sample",
-        "taille_octets": 2783,
-        "derniere_modification": "2025-01-23 10:23:33"
+        "Nom du fichier": "installer.exe",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\arduino-ide-updater\\\\installer.exe",
+        "taille_octets": 149952672,
+        "derniere_modification": "2024-06-19 10:52:03"
     },
     {
-        "Nom du fichier": "sendemail-validate.sample",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\hooks\\\\sendemail-validate.sample",
-        "taille_octets": 2308,
-        "derniere_modification": "2025-01-23 10:23:33"
+        "Nom du fichier": "atom.exe",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\atom.exe",
+        "taille_octets": 126336800,
+        "derniere_modification": "2024-06-17 16:05:03"
     },
     {
-        "Nom du fichier": "2f962d337200b0124f0f3270cedb3e61364be1",
-        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\PycharmProjects\\\\SAE_traiter_donnees\\\\.git\\\\objects\\\\64\\\\2f962d337200b0124f0f3270cedb3e61364be1",
-        "taille_octets": 1726,
-        "derniere_modification": "2025-01-23 10:25:35"
+        "Nom du fichier": "atom.exe",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\atom.exe",
+        "taille_octets": 126336800,
+        "derniere_modification": "2024-06-17 16:05:03"
+    },
+    {
+        "Nom du fichier": "content.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\caches\\\\content.dat",
+        "taille_octets": 67108864,
+        "derniere_modification": "2025-01-14 11:13:18"
+    },
+    {
+        "Nom du fichier": "records.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\caches\\\\records.dat",
+        "taille_octets": 67108864,
+        "derniere_modification": "2025-01-14 11:13:18"
+    },
+    {
+        "Nom du fichier": "e591ecddfd34cdff4b35a3aeaf9e7c73a1ca346dfe64a338c83c67d7.body",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\pip\\\\cache\\\\http-v2\\\\e\\\\5\\\\9\\\\1\\\\e\\\\e591ecddfd34cdff4b35a3aeaf9e7c73a1ca346dfe64a338c83c67d7.body",
+        "taille_octets": 50075158,
+        "derniere_modification": "2025-01-21 13:46:42"
+    },
+    {
+        "Nom du fichier": "icudt72.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\icudt72.dll",
+        "taille_octets": 31252992,
+        "derniere_modification": "2024-08-28 21:02:12"
+    },
+    {
+        "Nom du fichier": "icudt72.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\mci\\\\bin\\\\win64\\\\icudt72.dll",
+        "taille_octets": 31252992,
+        "derniere_modification": "2024-09-05 14:03:14"
+    },
+    {
+        "Nom du fichier": "icudt72.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\icudt72.dll",
+        "taille_octets": 31252992,
+        "derniere_modification": "2024-08-28 21:02:12"
+    },
+    {
+        "Nom du fichier": "icudt72.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\mci\\\\bin\\\\win64\\\\icudt72.dll",
+        "taille_octets": 31252992,
+        "derniere_modification": "2024-09-05 14:03:14"
+    },
+    {
+        "Nom du fichier": "node.exe",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app\\\\apm\\\\bin\\\\node.exe",
+        "taille_octets": 28797592,
+        "derniere_modification": "2024-06-17 16:05:09"
+    },
+    {
+        "Nom du fichier": "node.exe",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app\\\\apm\\\\bin\\\\node.exe",
+        "taille_octets": 28797592,
+        "derniere_modification": "2024-06-17 16:05:09"
+    },
+    {
+        "Nom du fichier": "opengl32sw.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Python\\\\Python312\\\\site-packages\\\\PyQt5\\\\Qt5\\\\bin\\\\opengl32sw.dll",
+        "taille_octets": 20923392,
+        "derniere_modification": "2025-01-21 13:46:44"
+    },
+    {
+        "Nom du fichier": "WebCacheV01.dat",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\WebCache\\\\WebCacheV01.dat",
+        "taille_octets": 20447232,
+        "derniere_modification": "2024-09-06 16:11:23"
+    },
+    {
+        "Nom du fichier": "WebCacheV01.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\WebCache.old\\\\WebCacheV01.dat",
+        "taille_octets": 20447232,
+        "derniere_modification": "2024-09-06 16:11:23"
+    },
+    {
+        "Nom du fichier": "widevinecdm.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\Microsoft\\\\Edge\\\\User Data\\\\WidevineCdm\\\\4.10.2710.0\\\\_platform_specific\\\\win_x64\\\\widevinecdm.dll",
+        "taille_octets": 18690288,
+        "derniere_modification": "2023-09-28 00:12:02"
+    },
+    {
+        "Nom du fichier": "widevinecdm.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\gmp-widevinecdm\\\\4.10.2710.0\\\\widevinecdm.dll",
+        "taille_octets": 18680088,
+        "derniere_modification": "2025-01-14 10:23:08"
+    },
+    {
+        "Nom du fichier": "attributes.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\caches\\\\attributes.dat",
+        "taille_octets": 16777216,
+        "derniere_modification": "2025-01-14 11:13:16"
+    },
+    {
+        "Nom du fichier": "WebCacheV01.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\WebCache\\\\WebCacheV01.dat",
+        "taille_octets": 15728640,
+        "derniere_modification": "2025-01-23 11:03:20"
+    },
+    {
+        "Nom du fichier": "318076FBBB6BB4C020FE36DFD3F55E9BBAD18BA0",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\318076FBBB6BB4C020FE36DFD3F55E9BBAD18BA0",
+        "taille_octets": 15712840,
+        "derniere_modification": "2025-01-23 09:47:44"
+    },
+    {
+        "Nom du fichier": "80371C42D4D1D85705EE72036CB7A6708ABA6602",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\80371C42D4D1D85705EE72036CB7A6708ABA6602",
+        "taille_octets": 15712840,
+        "derniere_modification": "2025-01-20 11:45:29"
+    },
+    {
+        "Nom du fichier": "F935D28B0122DFB61F0B9EA335F4CCB7D9EB2840",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\F935D28B0122DFB61F0B9EA335F4CCB7D9EB2840",
+        "taille_octets": 15712840,
+        "derniere_modification": "2025-01-14 11:20:47"
+    },
+    {
+        "Nom du fichier": "BA0A19287E881A4EF914B611B3F0E526771AA73A",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\BA0A19287E881A4EF914B611B3F0E526771AA73A",
+        "taille_octets": 14495724,
+        "derniere_modification": "2025-01-14 10:23:08"
+    },
+    {
+        "Nom du fichier": "C798BE56CD517250B79E22260F153BDF688C1C7B",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\C798BE56CD517250B79E22260F153BDF688C1C7B",
+        "taille_octets": 11944557,
+        "derniere_modification": "2025-01-21 14:42:06"
+    },
+    {
+        "Nom du fichier": "pypi-cache.json",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\python_packages\\\\pypi-cache.json",
+        "taille_octets": 11592894,
+        "derniere_modification": "2025-01-23 08:44:57"
+    },
+    {
+        "Nom du fichier": "thumbcache_96.db",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\Explorer\\\\thumbcache_96.db",
+        "taille_octets": 11534336,
+        "derniere_modification": "2025-01-21 14:07:21"
+    },
+    {
+        "Nom du fichier": "git-lfs.exe",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app.asar.unpacked\\\\node_modules\\\\dugite\\\\git\\\\mingw64\\\\libexec\\\\git-core\\\\git-lfs.exe",
+        "taille_octets": 11103224,
+        "derniere_modification": "2024-06-17 16:05:08"
+    },
+    {
+        "Nom du fichier": "git-lfs.exe",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app.asar.unpacked\\\\node_modules\\\\dugite\\\\git\\\\mingw64\\\\libexec\\\\git-core\\\\git-lfs.exe",
+        "taille_octets": 11103224,
+        "derniere_modification": "2024-06-17 16:05:08"
+    },
+    {
+        "Nom du fichier": "4A7C08578750B1D0F2B6F8A400E7E905A1AC2616",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\cache2\\\\entries\\\\4A7C08578750B1D0F2B6F8A400E7E905A1AC2616",
+        "taille_octets": 10933342,
+        "derniere_modification": "2025-01-20 11:21:30"
+    },
+    {
+        "Nom du fichier": "icudtl.dat",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\icudtl.dat",
+        "taille_octets": 10717392,
+        "derniere_modification": "2024-08-28 21:02:44"
+    },
+    {
+        "Nom du fichier": "icudtl.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\icudtl.dat",
+        "taille_octets": 10717392,
+        "derniere_modification": "2024-08-28 21:02:44"
+    },
+    {
+        "Nom du fichier": "3870112724rsegmnoittet-es.sqlite",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\storage\\\\permanent\\\\chrome\\\\idb\\\\3870112724rsegmnoittet-es.sqlite",
+        "taille_octets": 10657792,
+        "derniere_modification": "2025-01-23 10:03:08"
+    },
+    {
+        "Nom du fichier": "icudtl.dat",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\icudtl.dat",
+        "taille_octets": 10528096,
+        "derniere_modification": "2024-06-17 16:05:04"
+    },
+    {
+        "Nom du fichier": "icudtl.dat",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\icudtl.dat",
+        "taille_octets": 10528096,
+        "derniere_modification": "2024-06-17 16:05:04"
+    },
+    {
+        "Nom du fichier": "packages_v2.json",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\python_packages\\\\packages_v2.json",
+        "taille_octets": 9784916,
+        "derniere_modification": "2025-01-23 08:45:00"
+    },
+    {
+        "Nom du fichier": "toolbox_cache-24.1.0-53470551-win64.xml",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\MATLAB\\\\R2024a\\\\toolbox_cache-24.1.0-53470551-win64.xml",
+        "taille_octets": 9663299,
+        "derniere_modification": "2024-09-06 15:25:20"
+    },
+    {
+        "Nom du fichier": "toolbox_cache-24.1.0-53470551-win64.xml",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\MATLAB\\\\R2024a\\\\toolbox_cache-24.1.0-53470551-win64.xml",
+        "taille_octets": 9663299,
+        "derniere_modification": "2024-09-06 15:25:20"
+    },
+    {
+        "Nom du fichier": "goog-phish-proto.vlpset",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\safebrowsing\\\\google4\\\\goog-phish-proto.vlpset",
+        "taille_octets": 9575606,
+        "derniere_modification": "2025-01-23 10:37:45"
+    },
+    {
+        "Nom du fichier": "mf0.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\mf0.dll",
+        "taille_octets": 9158656,
+        "derniere_modification": "2024-08-28 22:08:26"
+    },
+    {
+        "Nom du fichier": "mf0.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\mf0.dll",
+        "taille_octets": 9158656,
+        "derniere_modification": "2024-08-28 22:08:26"
+    },
+    {
+        "Nom du fichier": "scriptCache-current.bin",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\startupCache\\\\scriptCache-current.bin",
+        "taille_octets": 8878408,
+        "derniere_modification": "2025-01-20 10:15:49"
+    },
+    {
+        "Nom du fichier": "git.ilk",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app\\\\apm\\\\node_modules\\\\git-utils\\\\build\\\\Release\\\\git.ilk",
+        "taille_octets": 8561392,
+        "derniere_modification": "2024-06-17 16:05:11"
+    },
+    {
+        "Nom du fichier": "git.ilk",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\resources\\\\app\\\\apm\\\\node_modules\\\\git-utils\\\\build\\\\Release\\\\git.ilk",
+        "taille_octets": 8561392,
+        "derniere_modification": "2024-06-17 16:05:11"
+    },
+    {
+        "Nom du fichier": "data_3",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\Microsoft\\\\Edge\\\\User Data\\\\Default\\\\Cache\\\\data_3",
+        "taille_octets": 8396800,
+        "derniere_modification": "2024-09-06 08:43:59"
+    },
+    {
+        "Nom du fichier": "data_3",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.Windows.Search_cw5n1h2txyewy\\\\LocalState\\\\EBWebView\\\\Default\\\\Cache\\\\Cache_Data\\\\data_3",
+        "taille_octets": 8396800,
+        "derniere_modification": "2025-01-23 08:39:50"
+    },
+    {
+        "Nom du fichier": "names.dat.mmap",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\caches\\\\names.dat.mmap",
+        "taille_octets": 8388608,
+        "derniere_modification": "2025-01-14 11:13:16"
+    },
+    {
+        "Nom du fichier": "paths-ids.29",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\vcs-log\\\\R1-07_e4b6e24a_e9eae0e\\\\index\\\\paths-ids.29",
+        "taille_octets": 8388608,
+        "derniere_modification": "2025-01-14 11:15:58"
+    },
+    {
+        "Nom du fichier": "paths-ids.29",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\vcs-log\\\\SAE1_05_e40dc9ae_2fab4372\\\\index\\\\paths-ids.29",
+        "taille_octets": 8388608,
+        "derniere_modification": "2025-01-14 11:17:20"
+    },
+    {
+        "Nom du fichier": "paths-ids.29",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\vcs-log\\\\SAE_tra_8ab9f7f1_2c409835\\\\index\\\\paths-ids.29",
+        "taille_octets": 8388608,
+        "derniere_modification": "2025-01-23 10:23:36"
+    },
+    {
+        "Nom du fichier": "resources.pak",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\cef_resources\\\\resources.pak",
+        "taille_octets": 8226844,
+        "derniere_modification": "2024-08-28 21:02:50"
+    },
+    {
+        "Nom du fichier": "resources.pak",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\cef_resources\\\\resources.pak",
+        "taille_octets": 8226844,
+        "derniere_modification": "2024-08-28 21:02:50"
+    },
+    {
+        "Nom du fichier": "libGLESv2.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\libGLESv2.dll",
+        "taille_octets": 7620096,
+        "derniere_modification": "2024-06-17 16:05:04"
+    },
+    {
+        "Nom du fichier": "libGLESv2.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\libGLESv2.dll",
+        "taille_octets": 7620096,
+        "derniere_modification": "2024-06-17 16:05:04"
+    },
+    {
+        "Nom du fichier": "libGLESv2.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libGLESv2.dll",
+        "taille_octets": 7569920,
+        "derniere_modification": "2024-08-28 21:02:44"
+    },
+    {
+        "Nom du fichier": "libGLESv2.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libGLESv2.dll",
+        "taille_octets": 7569920,
+        "derniere_modification": "2024-08-28 21:02:44"
+    },
+    {
+        "Nom du fichier": "Qt5GuiMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5GuiMW.dll",
+        "taille_octets": 7489024,
+        "derniere_modification": "2024-08-28 21:02:58"
+    },
+    {
+        "Nom du fichier": "Qt5GuiMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5GuiMW.dll",
+        "taille_octets": 7489024,
+        "derniere_modification": "2024-08-28 21:02:58"
+    },
+    {
+        "Nom du fichier": "Qt5Gui.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Python\\\\Python312\\\\site-packages\\\\PyQt5\\\\Qt5\\\\bin\\\\Qt5Gui.dll",
+        "taille_octets": 7008240,
+        "derniere_modification": "2025-01-21 13:46:43"
+    },
+    {
+        "Nom du fichier": "4bbd0e64a1725b8342692d75f2b4fc75fd4b89ee14159ee743de6a41.body",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\pip\\\\cache\\\\http-v2\\\\4\\\\b\\\\b\\\\d\\\\0\\\\4bbd0e64a1725b8342692d75f2b4fc75fd4b89ee14159ee743de6a41.body",
+        "taille_octets": 6865864,
+        "derniere_modification": "2025-01-21 13:46:42"
+    },
+    {
+        "Nom du fichier": "2f7b5588-315f-4070-9739-9b9ff1c08972.dmp",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Edge\\\\User Data\\\\Crashpad\\\\reports\\\\2f7b5588-315f-4070-9739-9b9ff1c08972.dmp",
+        "taille_octets": 6662791,
+        "derniere_modification": "2025-01-14 11:14:32"
+    },
+    {
+        "Nom du fichier": "41408db5-962c-463f-9418-8a09ad1f999e.dmp",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Edge\\\\User Data\\\\Crashpad\\\\reports\\\\41408db5-962c-463f-9418-8a09ad1f999e.dmp",
+        "taille_octets": 6635729,
+        "derniere_modification": "2025-01-14 11:14:32"
+    },
+    {
+        "Nom du fichier": "v8_context_snapshot.bin",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\v8_context_snapshot.bin",
+        "taille_octets": 6296542,
+        "derniere_modification": "2024-06-17 16:05:16"
+    },
+    {
+        "Nom du fichier": "v8_context_snapshot.bin",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\atom\\\\app-1.63.1\\\\v8_context_snapshot.bin",
+        "taille_octets": 6296542,
+        "derniere_modification": "2024-06-17 16:05:16"
+    },
+    {
+        "Nom du fichier": "IdIndex_inputs.values",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\index\\\\idindex\\\\IdIndex_inputs.values",
+        "taille_octets": 6179990,
+        "derniere_modification": "2025-01-23 10:21:30"
+    },
+    {
+        "Nom du fichier": "Qt5Core.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Python\\\\Python312\\\\site-packages\\\\PyQt5\\\\Qt5\\\\bin\\\\Qt5Core.dll",
+        "taille_octets": 6023664,
+        "derniere_modification": "2025-01-21 13:46:43"
+    },
+    {
+        "Nom du fichier": "Stubs.storage.values",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\index\\\\stubs\\\\Stubs.storage.values",
+        "taille_octets": 5844941,
+        "derniere_modification": "2025-01-23 09:56:27"
+    },
+    {
+        "Nom du fichier": "IdIndex.storage_i",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\JetBrains\\\\PyCharmCE2024.1\\\\index\\\\idindex\\\\IdIndex.storage_i",
+        "taille_octets": 5832704,
+        "derniere_modification": "2025-01-23 10:58:59"
+    },
+    {
+        "Nom du fichier": "store.vol",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\Comms\\\\UnistoreDB\\\\store.vol",
+        "taille_octets": 5767168,
+        "derniere_modification": "2024-09-06 16:13:12"
+    },
+    {
+        "Nom du fichier": "store.vol",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Comms\\\\UnistoreDB\\\\store.vol",
+        "taille_octets": 5767168,
+        "derniere_modification": "2024-09-06 16:13:12"
+    },
+    {
+        "Nom du fichier": "Qt5CoreMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5CoreMW.dll",
+        "taille_octets": 5640704,
+        "derniere_modification": "2024-08-28 21:02:58"
+    },
+    {
+        "Nom du fichier": "Qt5CoreMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5CoreMW.dll",
+        "taille_octets": 5640704,
+        "derniere_modification": "2024-08-28 21:02:58"
+    },
+    {
+        "Nom du fichier": "Qt5WidgetsMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5WidgetsMW.dll",
+        "taille_octets": 5635584,
+        "derniere_modification": "2024-08-28 21:02:59"
+    },
+    {
+        "Nom du fichier": "Qt5WidgetsMW.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\Qt5WidgetsMW.dll",
+        "taille_octets": 5635584,
+        "derniere_modification": "2024-08-28 21:02:59"
+    },
+    {
+        "Nom du fichier": "Qt5Widgets.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Python\\\\Python312\\\\site-packages\\\\PyQt5\\\\Qt5\\\\bin\\\\Qt5Widgets.dll",
+        "taille_octets": 5498352,
+        "derniere_modification": "2025-01-21 13:46:43"
+    },
+    {
+        "Nom du fichier": "shopping.js",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Edge\\\\User Data\\\\Edge Shopping\\\\2.0.8025.0\\\\shopping.js",
+        "taille_octets": 5312868,
+        "derniere_modification": "2025-01-17 02:06:24"
+    },
+    {
+        "Nom du fichier": "libcrypto-3-x64-mw.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libcrypto-3-x64-mw.dll",
+        "taille_octets": 5291520,
+        "derniere_modification": "2024-08-28 21:02:42"
+    },
+    {
+        "Nom du fichier": "libcrypto-3-x64-mw.dll",
+        "chemin_complet": "C:\\\\Users\\\\Default\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\mci\\\\bin\\\\win64\\\\libcrypto-3-x64-mw.dll",
+        "taille_octets": 5291520,
+        "derniere_modification": "2024-09-05 14:03:15"
+    },
+    {
+        "Nom du fichier": "libcrypto-3-x64-mw.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\bin\\\\win64\\\\libcrypto-3-x64-mw.dll",
+        "taille_octets": 5291520,
+        "derniere_modification": "2024-08-28 21:02:42"
+    },
+    {
+        "Nom du fichier": "libcrypto-3-x64-mw.dll",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\MathWorks\\\\ServiceHost\\\\v2024.9.0.2\\\\mci\\\\bin\\\\win64\\\\libcrypto-3-x64-mw.dll",
+        "taille_octets": 5291520,
+        "derniere_modification": "2024-09-05 14:03:15"
+    },
+    {
+        "Nom du fichier": "iconcache_256.db",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\Explorer\\\\iconcache_256.db",
+        "taille_octets": 5242880,
+        "derniere_modification": "2025-01-14 11:09:30"
+    },
+    {
+        "Nom du fichier": "favicons.sqlite",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\favicons.sqlite",
+        "taille_octets": 5242880,
+        "derniere_modification": "2025-01-23 09:49:48"
+    },
+    {
+        "Nom du fichier": "places.sqlite",
+        "chemin_complet": "C:\\\\Users\\\\e2400575\\\\AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles\\\\ryvr2dhd.default-esr\\\\places.sqlite",
+        "taille_octets": 5242880,
+        "derniere_modification": "2025-01-23 10:23:02"
     }
 ]
