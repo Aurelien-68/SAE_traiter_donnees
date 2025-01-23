@@ -1,37 +1,40 @@
 # lancescripts.ps1
 Param(
-    [string]$pythonPath = "python"  # ou "C:\Python39\python.exe" si besoin
+    [string]$pythonPath = "python"  # Définit le chemin de Python, valeur par défaut "python"
 )
 
-Write-Host "=== 1) Lancement de l'interface PyQt (searchgraph.py) pour sélectionner un répertoire ==="
+Write-Host "=== 1) Lancement de l'interface PyQt (searchgraph.py) ==="
 
-# Lance searchgraph.py et récupère le répertoire sélectionné sur la sortie standard
+# Lancer searchgraph.py pour choisir un répertoire
 $rep_base = & $pythonPath ".\searchgraph.py"
 
 Write-Host "Répertoire sélectionné : '$rep_base'"
 
-# Vérifications
+# Vérification du répertoire
 if (-not $rep_base) {
-    Write-Host "Aucun répertoire n'a été sélectionné ou l'utilisateur a annulé."
+    Write-Host "Aucun répertoire sélectionné."
     exit
 }
 if (!(Test-Path $rep_base)) {
-    Write-Host "Le répertoire '$rep_base' n'existe pas ou est invalide."
+    Write-Host "Répertoire invalide."
     exit
 }
 
-Write-Host "=== 2) Lancement de script1.py (analyse + génération du JSON) avec le répertoire ==="
+Write-Host "=== 2) Lancement de script1.py (analyse + JSON) ==="
+# Lancer script1.py avec le répertoire choisi
 & $pythonPath ".\script1.py" "$rep_base"
 
-Write-Host "=== 3) Vérification de la présence du fichier fichiers_gros.json ==="
+Write-Host "=== 3) Vérification du fichier fichiers_gros.json ==="
+# Vérifier si le fichier JSON est généré
 if (Test-Path ".\fichiers_gros.json") {
-    Write-Host "Le fichier fichiers_gros.json a été généré avec succès."
-    Write-Host "=== 4) Lancement de script3.py (lecture du JSON + interface) ==="
+    Write-Host "fichiers_gros.json généré avec succès."
+    Write-Host "=== 4) Lancement de script3.py (lecture JSON + interface) ==="
+    # Lancer script3.py pour afficher l'interface
     & $pythonPath ".\script3.py"
 }
 else {
-    Write-Host "ERREUR : Le fichier fichiers_gros.json n'a pas été trouvé."
-    Write-Host "script3.py ne sera pas lancé."
+    Write-Host "ERREUR : fichiers_gros.json non trouvé."
+    Write-Host "script3.py non lancé."
 }
 
 Write-Host "=== Fin du script PowerShell ==="

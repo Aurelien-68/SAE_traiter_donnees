@@ -5,16 +5,17 @@ def main():
     # Crée l'application Qt
     app = QApplication(sys.argv)
 
-    # Ouvre la boîte de dialogue de sélection de répertoire
+    # Ouvre une fenêtre de sélection de répertoire
     directory = QFileDialog.getExistingDirectory(None, "Choisir un répertoire")
 
-    # Si l'utilisateur a sélectionné un dossier et validé
+    # Si un répertoire a été sélectionné
     if directory:
         print(directory)
     else:
-        # En cas d'annulation, on renvoie une chaîne vide
+        # Si l'utilisateur annule, on affiche une chaîne vide
         print("")
 
+    # Quitte l'application après la sélection
     sys.exit(0)
 
 if __name__ == "__main__":
