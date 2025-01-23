@@ -188,9 +188,9 @@ class FenetrePrincipale(QMainWindow):
         layout.addWidget(chart_view)
         self.tabs.addTab(tab, "Camembert")
 
-    # -----------------------------------------------------------------
+
     # Onglets pour afficher les légendes des fichiers (25 par onglet)
-    # -----------------------------------------------------------------
+
     def add_tabs_legendes(self):
         nb_par_onglet = 25
         for i in range(0, len(self.liste_fichiers), nb_par_onglet):
@@ -216,19 +216,27 @@ class FenetrePrincipale(QMainWindow):
         else:
             self.selected_files.discard(file_path)
 
-    # -----------------------------------------------------------------
-    # Onglet pour générer un script PowerShell
-    # -----------------------------------------------------------------
-    def add_tab_ihm(self):
-        tab = QWidget()
-        layout = QVBoxLayout(tab)
-        layout.setSpacing(10)
 
+    # Onglet pour générer un script PowerShell
+
+    def add_tab_ihm(self):
+        # Crée un nouvel onglet avec un bouton permettant de générer un script PowerShell
+        tab = QWidget()  # Conteneur pour l'onglet
+        layout = QVBoxLayout(tab)  # Mise en page verticale pour organiser les widgets
+        layout.setSpacing(10)  # Espacement entre les éléments du layout
+
+        # Création du bouton
         btn = QPushButton("Générer script PowerShell")
+        # Connexion du clic du bouton à la méthode de génération du script
         btn.clicked.connect(self.callback_generer_script_ps1)
+
+        # Ajout du bouton au layout de l'onglet
         layout.addWidget(btn)
 
+        # Applique le layout au widget (onglet)
         tab.setLayout(layout)
+
+        # Ajoute l'onglet avec le titre "IHM" au widget d'onglets
         self.tabs.addTab(tab, "IHM")
 
     def callback_generer_script_ps1(self):

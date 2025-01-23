@@ -2,7 +2,8 @@ import sys
 from PyQt5.QtWidgets import QApplication, QFileDialog
 
 def main():
-    # Crée l'application Qt
+    # Crée l'application Qt. Cette ligne est indispensable pour démarrer l'interface graphique PyQt.
+
     app = QApplication(sys.argv)
 
     # Ouvre une fenêtre de sélection de répertoire
