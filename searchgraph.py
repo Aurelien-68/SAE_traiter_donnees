@@ -2,21 +2,21 @@ import sys
 from PyQt5.QtWidgets import QApplication, QFileDialog
 
 def main():
-    # Crée l'application Qt. Cette ligne est indispensable pour démarrer l'interface graphique PyQt.
+    # Cree l'application Qt. Cette ligne est indispensable pour demarrer l'interface graphique PyQt.
 
     app = QApplication(sys.argv)
 
-    # Ouvre une fenêtre de sélection de répertoire
-    directory = QFileDialog.getExistingDirectory(None, "Choisir un répertoire")
+    # Ouvre une fenêtre de selection de repertoire
+    directory = QFileDialog.getExistingDirectory(None, "Choisir un repertoire")
 
-    # Si un répertoire a été sélectionné
+    # Si un repertoire a ete selectionne
     if directory:
         print(directory)
     else:
         # Si l'utilisateur annule, on affiche une chaîne vide
         print("")
 
-    # Quitte l'application après la sélection
+    # Quitte l'application après la selection
     sys.exit(0)
 
 if __name__ == "__main__":

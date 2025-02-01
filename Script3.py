@@ -27,10 +27,10 @@ def charger_liste_depuis_json(nom_fichier_json):
         data = json.load(f)
 
     liste_resultat = []
-    # Si les données sont dans le format attendu [ [chemin, taille], ... ]
+    # Si les donnees sont dans le format attendu [ [chemin, taille], ... ]
     if data and isinstance(data[0], list):
         liste_resultat = data
-    # Si les données sont dans le format [ {"chemin_complet":..., "taille_octets":...}, ... ]
+    # Si les donnees sont dans le format [ {"chemin_complet":..., "taille_octets":...}, ... ]
     elif data and isinstance(data[0], dict):
         for item in data:
             c = item.get("chemin_complet", "")
@@ -39,11 +39,11 @@ def charger_liste_depuis_json(nom_fichier_json):
     return liste_resultat
 
 
-# 2) Fonction pour générer des couleurs aléatoires
+# 2) Fonction pour generer des couleurs aleatoires
 
 def generer_couleurs_aleatoires(nb_maxi_fichiers):
     couleurs = []
-    # Générer une couleur aléatoire pour chaque fichier
+    # Generer une couleur aleatoire pour chaque fichier
     for _ in range(nb_maxi_fichiers):
         r = random.randint(0, 255)
         g = random.randint(0, 255)
@@ -63,23 +63,23 @@ class FenetrePrincipale(QMainWindow):
         self.repertoire_de_base = repertoire_de_base
         self.liste_fichiers = liste_fichiers  # Liste des fichiers sous forme [ [chemin, taille], ... ]
 
-        # Calcul du nombre de couleurs nécessaires
+        # Calcul du nombre de couleurs necessaires
         NB_MAXI_FICHIERS = max(len(self.liste_fichiers), 100)
         self.couleurs = generer_couleurs_aleatoires(NB_MAXI_FICHIERS)
 
-        # Ensemble (set) pour mémoriser les fichiers sélectionnés par l'utilisateur.
-        # Cela garantit que chaque fichier n'est ajouté qu'une seule fois, même si l'utilisateur coche plusieurs fois la même case.
-        # Un set permet aussi de vérifier rapidement si un fichier est sélectionné, ce qui est utile pour d'autres opérations comme la génération du script PowerShell.
+        # Ensemble (set) pour memoriser les fichiers selectionnes par l'utilisateur.
+        # Cela garantit que chaque fichier n'est ajoute qu'une seule fois, même si l'utilisateur coche plusieurs fois la même case.
+        # Un set permet aussi de verifier rapidement si un fichier est selectionne, ce qui est utile pour d'autres operations comme la generation du script PowerShell.
         self.selected_files = set()
 
-        # Création de l'interface graphique
+        # Creation de l'interface graphique
         self.create_menus()      # Menu (Fichier, Aide)
         self.init_ui()           # Contenu de la fenêtre
         self.create_status_bar() # Barre de statut
 
     def create_menus(self):
         """
-        Crée la barre de menus avec les options "Fichier" et "Aide".
+        Cree la barre de menus avec les options "Fichier" et "Aide".
         """
         menu_bar = self.menuBar()
 
@@ -93,10 +93,10 @@ class FenetrePrincipale(QMainWindow):
 
     def create_status_bar(self):
 
-        #Crée la barre de statut avec le nombre de fichiers chargés
+        #Cree la barre de statut avec le nombre de fichiers charges
 
         nb = len(self.liste_fichiers)
-        self.statusBar().showMessage(f"Fichiers chargés : {nb}")
+        self.statusBar().showMessage(f"Fichiers charges : {nb}")
 
     def init_ui(self):
         # Application d'une feuille de style (CSS)
@@ -137,23 +137,23 @@ class FenetrePrincipale(QMainWindow):
             }
         """)
 
-        # Création d'un QTabWidget central
+        # Creation d'un QTabWidget central
         self.tabs = QTabWidget()
         self.setCentralWidget(self.tabs)
 
-        # Ajout des différents onglets
+        # Ajout des differents onglets
         self.add_tab_camembert()
         self.add_tabs_legendes()
         self.add_tab_ihm()
 
 
-    # Onglet "Camembert" pour afficher la répartition des fichiers
+    # Onglet "Camembert" pour afficher la repartition des fichiers
 
     def add_tab_camembert(self):
         tab = QWidget()
         layout = QVBoxLayout(tab)
 
-        # Création d'un camembert avec les données des fichiers
+        # Creation d'un camembert avec les donnees des fichiers
         series = QPieSeries()
         total_size = sum(t for _, t in self.liste_fichiers)
 
@@ -173,7 +173,7 @@ class FenetrePrincipale(QMainWindow):
 
         chart = QChart()
         chart.addSeries(series)
-        chart.setTitle("Répartition des fichiers par taille (Camembert)")
+        chart.setTitle("Repartition des fichiers par taille (Camembert)")
 
         # Personnalisation de la police du titre
         font_titre = QFont("Arial", 12, QFont.Bold)
@@ -189,7 +189,7 @@ class FenetrePrincipale(QMainWindow):
         self.tabs.addTab(tab, "Camembert")
 
 
-    # Onglets pour afficher les légendes des fichiers (25 par onglet)
+    # Onglets pour afficher les legendes des fichiers (25 par onglet)
 
     def add_tabs_legendes(self):
         nb_par_onglet = 25
@@ -205,11 +205,11 @@ class FenetrePrincipale(QMainWindow):
                 cb.stateChanged.connect(lambda state, f=chemin: self.toggle_file_selection(state, f))
                 layout.addWidget(cb)
 
-            self.tabs.addTab(tab, f"Légendes {int(i/nb_par_onglet) + 1}")
+            self.tabs.addTab(tab, f"Legendes {int(i/nb_par_onglet) + 1}")
 
     def toggle_file_selection(self, state, file_path):
         """
-        Ajoute ou retire un fichier de la sélection en fonction de son état.
+        Ajoute ou retire un fichier de la selection en fonction de son etat.
         """
         if state == Qt.Checked:
             self.selected_files.add(file_path)
@@ -217,17 +217,17 @@ class FenetrePrincipale(QMainWindow):
             self.selected_files.discard(file_path)
 
 
-    # Onglet pour générer un script PowerShell
+    # Onglet pour generer un script PowerShell
 
     def add_tab_ihm(self):
-        # Crée un nouvel onglet avec un bouton permettant de générer un script PowerShell
+        # Cree un nouvel onglet avec un bouton permettant de generer un script PowerShell
         tab = QWidget()  # Conteneur pour l'onglet
         layout = QVBoxLayout(tab)  # Mise en page verticale pour organiser les widgets
-        layout.setSpacing(10)  # Espacement entre les éléments du layout
+        layout.setSpacing(10)  # Espacement entre les elements du layout
 
-        # Création du bouton
-        btn = QPushButton("Générer script PowerShell")
-        # Connexion du clic du bouton à la méthode de génération du script
+        # Creation du bouton
+        btn = QPushButton("Generer script PowerShell")
+        # Connexion du clic du bouton à la methode de generation du script
         btn.clicked.connect(self.callback_generer_script_ps1)
 
         # Ajout du bouton au layout de l'onglet
@@ -241,10 +241,10 @@ class FenetrePrincipale(QMainWindow):
 
     def callback_generer_script_ps1(self):
         """
-        Génère un script PowerShell pour supprimer les fichiers sélectionnés.
+        Genère un script PowerShell pour supprimer les fichiers selectionnes.
         """
         if not self.selected_files:
-            QMessageBox.warning(self, "Avertissement", "Aucun fichier sélectionné !")
+            QMessageBox.warning(self, "Avertissement", "Aucun fichier selectionne !")
             return
 
         default_name = str(Path(__file__).parent.joinpath("supprime_fichiers.ps1"))
@@ -255,11 +255,11 @@ class FenetrePrincipale(QMainWindow):
             "Fichier PowerShell (*.ps1)"
         )
         if not ps1_path:
-            return  # Annulé
+            return  # Annule
 
         # Contenu du script PowerShell pour supprimer les fichiers
         script_content = '''Write-Output "Script PowerShell pour supprimer des fichiers sans confirmation"
-Write-Output "Attention : cette suppression est définitivement ..."
+Write-Output "Attention : cette suppression est definitivement ..."
 $reponse = Read-Host "Veuillez confirmer la suppression de tous ces fichiers : (OUI)"
 if ($reponse -eq "OUI") {
     $confirmation = Read-Host "Etes-vous bien certain(e) ? (OUI)"
@@ -270,25 +270,25 @@ if ($reponse -eq "OUI") {
             script_content += f'        Remove-Item -Path "{safe_path}" -Force\n'
 
         script_content += '''    } else {
-        Write-Output "Opération annulée..."
+        Write-Output "Operation annulee..."
     }
 } else {
-    Write-Output "Opération annulée..."
+    Write-Output "Operation annulee..."
 }
 '''
 
         try:
             with open(ps1_path, 'w', encoding='utf-8') as f:
                 f.write(script_content)
-            QMessageBox.information(self, "Succès", f"Script PowerShell généré :\n{ps1_path}")
+            QMessageBox.information(self, "Succes", f"Script PowerShell genere :\n{ps1_path}")
         except Exception as e:
-            QMessageBox.critical(self, "Erreur", f"Impossible de créer le script:\n{e}")
+            QMessageBox.critical(self, "Erreur", f"Impossible de creer le script:\n{e}")
 
 
 # Programme principal
 
 def main():
-    # 1) Définir un répertoire de base
+    # 1) Definir un repertoire de base
     repertoire_de_base = r"C:\Mon\Repertoire\De\Base"
 
     # 2) Nom du fichier JSON
@@ -297,14 +297,14 @@ def main():
     # 3) Lecture du fichier JSON
     liste_fichiers = charger_liste_depuis_json(nom_fichier_json)
 
-    # 4) Création de l'application PyQt
+    # 4) Creation de l'application PyQt
     app = QApplication(sys.argv)
 
-    # 5) Création de la fenêtre principale
+    # 5) Creation de la fenêtre principale
     fenetre = FenetrePrincipale(repertoire_de_base, liste_fichiers)
     fenetre.show()
 
-    # 6) Lancer la boucle d'événements PyQt
+    # 6) Lancer la boucle d'evenements PyQt
     sys.exit(app.exec_())
 
 if __name__ == "__main__":
