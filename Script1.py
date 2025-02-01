@@ -10,7 +10,7 @@ def construire_liste_fichiers(repertoire_de_base):
     fichiers = []
     repertoire = Path(repertoire_de_base)
     # Recherche tous les fichiers dans le repertoire et ses sous-repertoires
-    for fichier in repertoire.rglob('*'):
+    for fichier in repertoire.rglob('*'): # recherche tout dans le dossier et ses cous dossiers ('*' signifie "tout")
         if fichier.is_file():
             infos_stat = fichier.stat()
             date_modif = datetime.datetime.fromtimestamp(infos_stat.st_mtime)
