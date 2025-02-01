@@ -26,7 +26,7 @@ Write-Host "=== 2) Lancement de script1.py (analyse + JSON) ==="
 
 Write-Host "=== 3) Verification du fichier fichiers_gros.json ==="
 # Verifier si le fichier JSON est genere
-if (Test-Path ".\fichiers_gros.json") {
+if (Test-Path ".\fichiers_gros.json") { #Test-Path:vérifie si un fichier ou un dossier existe.
     Write-Host "fichiers_gros.json genere avec succes."
     Write-Host "=== 4) Lancement de script3.py (lecture JSON + interface) ==="
     # Lancer script3.py pour afficher l'interface
