@@ -28,7 +28,7 @@ def charger_liste_depuis_json(nom_fichier_json):
 
     liste_resultat = []
     # Si les donnees sont dans le format attendu [ [chemin, taille], ... ]
-    if data and isinstance(data[0], list):
+    if data and isinstance(data[0], list): #verifie data n'est pas vide et si le 1er element est une liste
         liste_resultat = data
     # Si les donnees sont dans le format [ {"chemin_complet":..., "taille_octets":...}, ... ]
     elif data and isinstance(data[0], dict):
