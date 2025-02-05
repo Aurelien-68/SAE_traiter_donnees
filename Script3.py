@@ -289,7 +289,7 @@ if ($reponse -eq "OUI") {
 
 def main():
     # 1) Definir un repertoire de base
-    repertoire_de_base = r"C:\Mon\Repertoire\De\Base"
+    repertoire_de_base = r"C:\Mon\Repertoire\De\Base" # r signifie raw string(interprete pas caractères spéciaux)
 
     # 2) Nom du fichier JSON
     nom_fichier_json = "fichiers_gros.json"
